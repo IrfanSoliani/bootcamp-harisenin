@@ -1,0 +1,2912 @@
+html {
+  width: 90rem;
+  /* height: 64rem; */
+  width: fit-content;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  background: #f2f5f9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.62rem;
+}
+
+/* -----------------------Header Start------------------------ */
+
+.header .logo {
+  font-family: Pacifico;
+  width: 77.5rem;
+  height: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.header .logo h1 {
+  color: #ec1b09;
+  padding: 2.75rem 0rem;
+}
+
+.header .logo h1 span {
+  color: #ff9c1a;
+}
+
+/* ----------------Header End------------------- */
+
+/* ---------------Profil Start------------------ */
+
+.profil-card {
+  width: 25rem;
+  height: 53.25rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.profil-card .profil-picture #profil-photo {
+  display: inline-block;
+  width: 12.5rem;
+  height: 12.5rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 3.25rem;
+  margin-left: 5.75rem;
+  margin-right: 6.75rem;
+  margin-bottom: 0.88rem;
+}
+
+.detail-profil {
+  text-align: center;
+}
+
+.profil-card .detail-profil #profil-name {
+  color: #0b0909;
+  font-family: Raleway;
+  font-size: 1.77625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.22031rem; /* 125% */
+  margin-bottom: 0.25rem;
+}
+
+.profil-card .detail-profil #career-details {
+  color: rgba(11, 9, 9, 0.5);
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 250% */
+}
+
+/* icon social media start */
+
+.social-media-icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.56844rem;
+}
+
+.social-media-icons #icon-fb {
+  width: 0.65113rem;
+  height: 1.24031rem;
+  padding: 1.29rem 1.55rem;
+  display: flex;
+  padding: 1.29194rem 1.55038rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.51681rem;
+  border-radius: 0.51681rem;
+  background: #f2f7fc;
+}
+
+.social-media-icons #icon-linkedin {
+  width: 0.985rem;
+  height: 0.93025rem;
+  display: flex;
+  padding: 1.29194rem 1.55038rem;
+  align-items: flex-start;
+  gap: 0.51681rem;
+  border-radius: 0.51681rem;
+  background: #f2f7fc;
+}
+
+.social-media-icons #icon-twitter {
+  width: 1.05344rem;
+  height: 0.8565rem;
+  display: flex;
+  padding: 1.29194rem 1.55038rem;
+  align-items: flex-start;
+  gap: 0.51681rem;
+  border-radius: 0.51681rem;
+  background: #f2f7fc;
+}
+
+.social-media-icons #icon-git {
+  width: 1.0335rem;
+  height: 1.00806rem;
+  display: flex;
+  padding: 1.29194rem 1.55038rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.51681rem;
+  border-radius: 0.51681rem;
+  background: #f2f7fc;
+}
+
+.contact-card {
+  width: 21.875rem;
+  height: 21.875rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #f2f5f9;
+  margin-top: 1.4rem;
+  margin-left: 1.56rem;
+  margin-right: 1.56rem;
+  margin-bottom: 4.12rem;
+}
+/* icon social media end */
+/* Phone group Start*/
+.phone-group {
+  width: 16rem;
+  height: 3.4375rem;
+  /* height: 3.9375rem; */
+  flex-shrink: 0;
+  padding-top: 2.06rem;
+  margin-top: 0rem;
+  margin-left: 2.25rem;
+  margin-right: 3.63rem;
+  margin-bottom: none;
+}
+
+.phone-group .phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: 0.03rem;
+  margin-left: 0.12rem;
+  margin-right: 6.19rem;
+  margin-bottom: 1.12rem;
+}
+
+.phone-group .phone #text-phone {
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0rem; /* 0% */
+}
+
+.phone-group .phone #number-phone {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.phone-group .icon-phone {
+  display: flex;
+  padding: 0.125rem 0.375rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.border-icon {
+  display: flex;
+  padding: 0.625rem;
+  align-items: flex-start;
+  gap: 0.3125rem;
+  border-radius: 0.5rem;
+  background: #f2f7fc;
+}
+
+.number-text {
+  display: flex;
+  padding: 0.3125rem 0rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.number-text #text-phone {
+  display: flex;
+  height: 0.9375rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-text #number-phone {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+/* Phone group End */
+
+/* Email Start */
+.email-group {
+  width: 18.875rem;
+  height: 3.4375rem;
+  /* height: 3.9375rem; */
+  flex-shrink: 0;
+  margin-left: 2.06rem;
+  margin-right: 0.94rem;
+  margin-bottom: none;
+}
+
+.garisline-email,
+.garisline-phone,
+.garisline-location {
+  display: block;
+  max-width: 16rem;
+  margin-top: none;
+  margin-left: 2.06rem;
+  margin-right: 3.81rem;
+  margin-bottom: none;
+  border: 1px solid rgba(205, 205, 205, 0.5);
+  /* border-color: ;
+  border-style: hidden hidden solid hidden; */
+}
+
+.email-details {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.12rem;
+}
+
+.border-email {
+  display: flex;
+  padding: 0.625rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3125rem;
+  border-radius: 0.5rem;
+  background: #f2f7fc;
+}
+
+.icon-email {
+  display: flex;
+  padding: 0.0625rem 0.125rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.51681rem;
+  background: #f2f7fc;
+}
+
+.email-group .email-details #email-text {
+  display: flex;
+  height: 0.9375rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-group .email-details #mail {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.email-details #email-text {
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0rem; /* 0% */
+}
+
+.email-details #mail {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.email-texts {
+  display: flex;
+  padding: 0.3125rem 0rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* Email End */
+
+/* Location start */
+.location {
+  width: 16rem;
+  height: 3.625rem;
+  /* height: 4.125rem; */
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+  margin-left: 2.13rem;
+  margin-right: 3.75rem;
+  /* margin-bottom: 1rem; */
+}
+
+.outline-border-location {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  margin-bottom: 1.31rem;
+}
+
+.border-location {
+  display: flex;
+  padding: 0.625rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3125rem;
+  border-radius: 0.5rem;
+  background: #f2f7fc;
+}
+
+.location-merger {
+  display: flex;
+  padding: 0.125rem 0.3125rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.51681rem;
+  background: #f2f7fc;
+}
+
+.outline-location {
+  width: 0.84375rem;
+  height: 1.21869rem;
+  stroke-width: 1.5px;
+  stroke: #e80505;
+}
+/* Problem logo circle tidak simetris berada diujung kiri-start */
+.circle-logo {
+  width: 0.27538rem;
+  height: 0.27538rem;
+  position: absolute;
+  left: 0.59669rem;
+  top: 0.41306rem;
+  stroke-width: 1.5px;
+  stroke: #e80505;
+}
+/* Problem logo circle tidak simetris berada diujung kiri-end */
+
+.border-text-location {
+  display: flex;
+  padding: 0.3125rem 0rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.border-text-location-2 #text-map {
+  display: flex;
+  height: 0.9375rem;
+  justify-content: center;
+  align-items: center;
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0rem; /* 0% */
+}
+
+.border-text-location-3 #text-address {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+/* Location End */
+/* Download start */
+.download-details {
+  display: inline-flex;
+  margin-top: 0.5rem;
+  margin-left: 4.12rem;
+  /* margin-right: 5.19rem; */
+  margin-bottom: 2.06rem;
+}
+
+.download-details button {
+  margin: none;
+  padding: none;
+  border: none;
+  /* border-radius: 1.25rem; */
+  background: #f2f5f9;
+}
+
+.download-details .download-resume a {
+  display: inline-flex;
+  box-sizing: border-box;
+  padding: 0.625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.25rem;
+  background: #ff9c1b;
+  color: #f2f7fc;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+  border: none;
+}
+
+.download-resume a:link {
+  text-decoration: none;
+}
+
+.download-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/* Download End */
+/* -------------------------Profil End------------------------ */
+
+/* -------------------------Navbar Start---------------------- */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  width: 31.4375rem;
+  height: 6.25rem;
+  border-radius: 1.25rem;
+  background: #f2f7fc;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  margin-left: 17.19rem;
+}
+
+.navcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  right: 1.5rem;
+  top: 0.625rem;
+}
+
+.border-home-landing {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.25rem;
+  background: #ff9c1b;
+}
+
+.border-resume-landing,
+.border-contact-landing {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.25rem;
+  background: #e1e8ef;
+}
+
+.home-landing,
+.resume-landing,
+.contact-landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 0.1875rem;
+  right: 1rem;
+  top: 0.8125rem;
+}
+
+.border-home-landing .home-landing .iconhome {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.border-home-landing .resume-landing .iconresume {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.border-home-landing .home-landing .text-home {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+}
+
+.border-resume-landing .resume-landing .text-resume,
+.border-contact-landing .contact-landing .text-contact {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+}
+
+/* Page Resume start */
+.border-resume-resume {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.25rem;
+  background: #ff9c1b;
+}
+
+.border-home-resume,
+.border-contact-resume {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.25rem;
+  background: #e1e8ef;
+}
+
+.home-resume,
+.resume-resume,
+.contact-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 0.1875rem;
+  right: 1rem;
+  top: 0.8125rem;
+}
+
+.border-home-resume .home-resume .iconhome {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.border-home-resume .resume-resume .iconresume {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.border-home-resume .home-resume .text-home {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+}
+
+.border-resume-resume .resume-resume .text-resume,
+.border-contact-resume .contact-resume .text-contact {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+}
+/* page resume end */
+/* page contact start */
+.border-contact-contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.25rem;
+  background: #ff9c1b;
+}
+
+.border-home-contact,
+.border-resume-contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.25rem;
+  background: #e1e8ef;
+}
+
+.home-contact,
+.resume-contact,
+.contact-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 0.1875rem;
+  right: 1rem;
+  top: 0.8125rem;
+}
+
+.border-home-contact .home-contact .iconhome {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.border-home-contact .resume-contact .iconresume {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.border-home-contact .home-contact .text-home {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+}
+
+.border-resume-contact .resume-contact .text-resume,
+.border-contact-contact .contact-contact .text-contact {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+}
+/* page contact end */
+
+/* .border-home .home .text-home:hover::after {
+  color: #fff;
+} */
+
+.navcards a:link {
+  text-decoration: none;
+}
+
+/* -------------------Navbar end---------------------------------------- */
+
+/* ---------------About Me Section Start-------------------------------- */
+.about-me,
+.resume-section,
+.contact-section {
+  width: 52.5rem;
+  height: 45rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.layout-2,
+.layout-3,
+.layout-4 {
+  width: 51.25rem;
+  height: 44.55rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  margin: 0.62rem 0.63rem;
+}
+
+.head-about {
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+  margin-left: 4.5rem;
+  margin-top: 1.12rem;
+  margin-bottom: 0.88rem;
+}
+
+.frame-head {
+  display: flex;
+  width: 13.25rem;
+  padding: 0.625rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.frame-head #text-about {
+  color: #0b0909;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 100% */
+  letter-spacing: 0.0625rem;
+}
+
+.line-about {
+  width: 252px;
+  height: 2px;
+}
+
+.main-about {
+  display: inline-flex;
+  padding-left: 0.62rem;
+  padding-right: 0.62rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4.44rem;
+  margin-right: 3.44rem;
+  margin-bottom: 0rem;
+}
+
+.main-about p {
+  color: #000;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem; /* 187.5% */
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.sub-head-about {
+  display: inline-flex;
+  padding: 0.62rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin-right: 34rem;
+  margin-left: 4.44rem;
+  margin-bottom: 0rem;
+}
+
+.sub-head-about span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 125% */
+  letter-spacing: 0.05rem;
+}
+
+/* Card About Start */
+.card-about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.69rem; /* gap 1.69 */
+  row-gap: 1.5rem;
+  margin-top: none;
+  margin-left: 4.5rem;
+  margin-right: 3.3rem;
+  margin-bottom: 2rem;
+}
+
+.card1 {
+  width: 20.8125rem;
+  height: 10.5625rem;
+  box-sizing: border-box;
+  border-radius: 1.25rem;
+  background: #ffebd1;
+}
+
+.border-card-about h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.icon-web {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon-app-dev {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6875rem;
+}
+
+.icon-uiux {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.iconmentor {
+  width: 1.875rem;
+  height: 1.5rem;
+}
+
+.card2 {
+  width: 20.8125rem;
+  height: 10.5625rem;
+  box-sizing: border-box;
+  border-radius: 1.25rem;
+  background: #f2f7fc;
+}
+
+.card3 {
+  width: 20.8125rem;
+  height: 9.7rem;
+  box-sizing: border-box;
+  border-radius: 1.25rem;
+  background: #f2f7fc;
+}
+
+.card4 {
+  width: 20.8125rem;
+  height: 9.7rem;
+  border-radius: 1.25rem;
+  box-sizing: border-box;
+  background: #ffebd1;
+}
+/* 
+.card1,
+.card4 {
+
+} */
+
+.border-card-about {
+  display: flex;
+  padding: 0.625rem;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.94rem;
+  margin-right: 0.94rem;
+}
+
+.border-card-about h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 83.333% */
+  margin: 0rem;
+}
+
+.border-card-about p {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+  letter-spacing: 0.02188rem;
+  margin: 0rem;
+  text-align: justify;
+}
+/* -----------------------About Me Section End------------------------- */
+
+/* ----------------------Resume Section Start-------------------------- */
+
+.head-resume {
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+  margin-left: 4.5rem;
+  margin-top: 1.12rem;
+  margin-bottom: 0rem;
+}
+
+.frame-head-resume {
+  display: flex;
+  width: 13.25rem;
+  padding: 0.625rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.frame-head-resume #text-resume-section {
+  color: #0b0909;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 100% */
+  letter-spacing: 0.0625rem;
+}
+
+.line-resume-section {
+  width: 252px;
+  height: 2px;
+}
+
+.head-detail-resume {
+  display: flex;
+  width: 35.24931rem;
+  height: 2.88931rem;
+  align-items: flex-start;
+  gap: 10rem;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin-left: 4.5rem;
+  margin-right: 11.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.35rem;
+}
+
+.head-detail-resume h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.73356rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.88931rem; /* 166.667% */
+  letter-spacing: 0.04331rem;
+  display: flex;
+  align-items: center;
+  gap: 0.57788rem;
+  margin: 0rem;
+}
+
+.icon-education {
+  width: 1.73356rem;
+  height: 1.73356rem;
+}
+
+.card-resume {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.6rem; /* gap 1.69 */
+  row-gap: 1.5rem;
+  margin-top: none;
+  margin-left: 4.5rem;
+  margin-right: 6.94rem;
+  /* margin-right: 3.3rem; */
+  margin-bottom: 1rem;
+  padding: 0rem;
+}
+
+.resume-1,
+.resume-4 {
+  width: 18.05806rem;
+  height: 7.22325rem;
+  flex-shrink: 0;
+  border-radius: 0.57788rem;
+  background: #ffe3bf;
+}
+
+.resume-2,
+.resume-3 {
+  width: 18.05806rem;
+  height: 7.22325rem;
+  flex-shrink: 0;
+  border-radius: 0.57788rem;
+  background: #ffeed9;
+}
+
+.border-resume-section {
+  display: flex;
+  /* width: 9.5rem; */
+  padding: 0.58rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.58rem;
+  /* position: absolute; */
+  top: 0.93894rem;
+  margin-top: 0.94rem;
+  margin-bottom: 0.97rem;
+  /* margin-right: 7.4rem; */
+  margin-left: 0rem;
+  box-sizing: border-box;
+}
+
+.border-resume-section .date-resume {
+  color: rgba(26, 16, 3, 0.5);
+  font-family: Raleway;
+  font-size: 0.86681rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.border-resume-section .desc-career {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.86681rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.border-resume-section .school-resume {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.86681rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* foot resume */
+.foot-resume {
+  width: 51.25rem;
+  height: 16.625rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  background: #f8fbfb;
+  margin-top: 0rem;
+}
+
+.border-foot-resume {
+  display: flex;
+  width: 39rem;
+  gap: 2rem;
+  margin-left: 4.5rem;
+  margin-right: 8.06rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.card-foot-resume {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 19.35rem;
+  justify-content: flex-start;
+
+  row-gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.skillresume-1 {
+  display: inline-flex;
+  gap: 2.19rem;
+}
+
+.skillresume-2 {
+  display: inline-flex;
+  gap: 1.56rem;
+}
+
+.skillresume-3 {
+  display: inline-flex;
+  gap: 1.19rem;
+}
+
+.skillresume-4 {
+  display: inline-flex;
+  gap: 2.06rem;
+}
+
+.skillresume-5 {
+  display: inline-flex;
+  gap: 1.31rem;
+}
+
+.card-foot-resume h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.73356rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.88931rem; /* 166.667% */
+  letter-spacing: 0.04331rem;
+  width: 19.35rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.skillresume-1 span,
+.skillresume-2 span,
+.skillresume-3 span,
+.skillresume-4 span,
+.skillresume-5 span {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 200% */
+  letter-spacing: 0.015rem;
+  display: inline-flex;
+  padding: 0.25rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.5rem;
+  background: #e1e8ef;
+}
+
+/* -----------------Resume Section End---------------------------------- */
+
+/* -----------------Contact Section Start------------------------------- */
+
+.head-contact-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+  margin-left: 4.5rem;
+  margin-top: 1.12rem;
+  margin-bottom: 0rem;
+}
+
+.frame-head-contact-section {
+  display: flex;
+  width: 13.25rem;
+  padding: 0.625rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.frame-head-contact-section #text-contact-section {
+  color: #0b0909;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 100% */
+  letter-spacing: 0.0625rem;
+}
+
+.line-contact-section {
+  width: 252px;
+  height: 2px;
+}
+
+.border-card-cs {
+  display: inline-flex;
+  margin-left: 4.56rem;
+  margin-right: 3.3rem;
+  gap: 1.67rem;
+  margin-top: 0.5rem;
+}
+
+.border-card-cs-2 {
+  display: flex;
+}
+
+.phonenumber-cs {
+  width: 20.8125rem;
+  height: 9.375rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #ffeed9;
+  display: flex;
+  justify-content: left;
+  gap: 0.62rem;
+}
+
+.phonenumber-cs-2 {
+  width: 20.8125rem;
+  height: 9.375rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #f2f7fc;
+  display: flex;
+  justify-content: left;
+  gap: 0.62rem;
+}
+
+.icon-desc-phone {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 1.88rem;
+  margin-left: 1.62rem;
+  margin-bottom: 6rem;
+}
+
+.phonenumber-cs .desc-telpon,
+.phonenumber-cs-2 .desc-telpon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.38rem;
+}
+
+.phonenumber-cs .desc-telpon .text-desc-phone,
+.phonenumber-cs-2 .desc-telpon .text-desc-phone {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 2.5rem; 250% */
+  letter-spacing: 0.025rem;
+}
+
+.phonenumber-cs .text-desc-phone #titikdua {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 2.5rem; */
+  letter-spacing: 0.03125rem;
+}
+
+/* form contact */
+
+.formcontact {
+  width: 43.375rem;
+  height: 24.5rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #f8fbfb;
+  margin-left: 4.5rem;
+  margin-right: 3.37rem;
+  margin-bottom: 2.38rem;
+  margin-top: 1.7rem;
+}
+
+.descriptcontact {
+  display: inline-flex;
+  height: 5.5rem;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 187.5% */
+  letter-spacing: 0.025rem;
+  margin-left: 1.81rem;
+  margin-right: 4.12rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0rem;
+}
+
+.descriptcontact .bold {
+  color: #000;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem;
+  letter-spacing: 0.025rem;
+}
+
+.nameform,
+.emailform,
+.messageform {
+  width: 36.2rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.1875rem;
+  /* max-width: 36.2rem;
+  height: 2.44rem; */
+  box-sizing: border-box;
+  margin-left: 2.44rem;
+  margin-bottom: 1.2rem;
+}
+
+.nameform span,
+.emailform span,
+.messageform span {
+  color: #000;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 125% */
+  letter-spacing: 0.025rem;
+}
+
+.nameform input,
+.emailform input,
+.messageform input {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35.7rem;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: #b5b5b5;
+  opacity: 0.2;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  border-color: #b5b5b5;
+  opacity: 0.2;
+}
+
+.nameform span .titik-dua {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  letter-spacing: 0.01875rem;
+}
+
+.submit input {
+  display: inline-flex;
+  padding: 0.625rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.25rem;
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 166.667% */
+  border-width: 1.25px;
+  border-color: color-mix(in srgb-linear, #fd8a18 100%, #ee2c0b 0%);
+  margin-left: 2.44rem;
+  margin-right: 34.6rem;
+  margin-bottom: 2.87rem;
+  margin-top: 0.23rem;
+}
+
+/* ------------------------Contact Section End---------------- */
+
+/* -------------------------------Media Queries-Mengatur display responsif----------------------------------------------------- */
+
+@media screen and (max-width: 1920px) {
+  html {
+    padding-right: 19.62rem;
+    padding-left: 22.25rem;
+    padding-bottom: 6.5rem;
+    padding-top: 3.12rem;
+    background: #f2f5f9;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    padding-right: 5.62rem;
+    padding-left: 6.25rem;
+    padding-bottom: 2.5rem;
+    padding-top: 1.12rem;
+    background: #f2f5f9;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  html {
+    padding-right: 3.1rem;
+    padding-left: 3.125rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    background: #f2f5f9;
+  }
+}
+
+/* -----------------------------------------media query TABLET--------- */
+
+@media screen and (max-width: 768px) {
+  html {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    max-height: 2000px;
+    background: #f2f5f9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  body {
+    margin: 10px;
+  }
+
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0rem;
+  }
+
+  .header {
+    width: 45%;
+  }
+
+  .header .logo {
+    font-family: Pacifico;
+    width: 180px;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header .logo h1 {
+    color: #ec1b09;
+    padding: 2.75rem 0rem;
+  }
+
+  .header .logo h1 span {
+    color: #ff9c1a;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -6.5rem;
+  }
+
+  .navbar {
+    display: flex;
+    width: 24rem;
+    border-radius: 1.25rem;
+    background: #f2f7fc;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 0rem;
+  }
+
+  .navcards {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profil-card {
+    width: 45%;
+    height: 53.25rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+  }
+
+  .profil-card .profil-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profil-card .profil-picture #profil-photo {
+    display: inline-flex;
+    width: 12.5rem;
+    height: 12.5rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-me,
+  .resume-section,
+  .contact-section {
+    width: 100%;
+    height: 1250px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .layout-2 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 24.8rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head-about {
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    margin-left: 2.5rem;
+    margin-top: 1.12rem;
+    margin-bottom: 0.88rem;
+  }
+
+  .frame-head {
+    display: flex;
+    width: 13.25rem;
+    padding: 0.625rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .frame-head #text-about {
+    color: #0b0909;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 100% */
+    letter-spacing: 0.0625rem;
+  }
+
+  .line-about {
+    width: 20%;
+    height: 2px;
+  }
+
+  .main-about {
+    display: inline-flex;
+    padding-left: 0.62rem;
+    padding-right: 0.62rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0rem;
+  }
+
+  .main-about p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem; /* 187.5% */
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: justify;
+  }
+
+  .sub-head-about {
+    display: inline-flex;
+    padding: 0.62rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .sub-head-about span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 125% */
+    letter-spacing: 0.05rem;
+  }
+
+  /* Card About Start */
+  .card-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.69rem; /* gap 1.69 */
+    row-gap: 1.5rem;
+    margin-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+
+  .card1 {
+    width: 20.8125rem;
+    height: 10.5625rem;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    background: #ffebd1;
+  }
+
+  .border-card-about h1 {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+  }
+
+  .icon-web {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .icon-app-dev {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6875rem;
+  }
+
+  .icon-uiux {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .iconmentor {
+    width: 1.875rem;
+    height: 1.5rem;
+  }
+
+  .card2 {
+    width: 20.8125rem;
+    height: 10.5625rem;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    background: #fff;
+  }
+
+  .card3 {
+    width: 20.8125rem;
+    height: 9.7rem;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    background: #ffebd1;
+  }
+
+  .card4 {
+    width: 20.8125rem;
+    height: 9.7rem;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    background: #fff;
+  }
+
+  .border-card-about {
+    display: flex;
+    padding: 0.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.94rem;
+    margin-right: 0.94rem;
+  }
+
+  .border-card-about h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 83.333% */
+    margin: 0rem;
+  }
+
+  .border-card-about p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+    letter-spacing: 0.02188rem;
+    margin: 0rem;
+    text-align: justify;
+  }
+
+  /* --------------------landing page */
+  /* -------------------resume section */
+  .layout-3 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 34.3rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head-resume {
+    display: inline-flex;
+    gap: 1rem;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0.88rem;
+  }
+
+  .frame-head-resume {
+    display: flex;
+    width: 13rem;
+    gap: 0rem;
+    margin-top: 1.12rem;
+    margin-bottom: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .frame-head-resume #text-resume-section {
+    color: #0b0909;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 100% */
+    letter-spacing: 0.0625rem;
+  }
+
+  .line-resume-section {
+    width: 20%;
+    height: 2px;
+  }
+
+  .head-detail-resume {
+    display: flex;
+    width: 95%;
+    height: 2.88931rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 1.35rem;
+  }
+
+  .head-detail-resume h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.88931rem; /* 166.667% */
+    letter-spacing: 0.04331rem;
+    display: flex;
+    align-items: center;
+    gap: 0.57788rem;
+    margin: 0rem;
+  }
+
+  .icon-education {
+    width: 1.73356rem;
+    height: 1.73356rem;
+  }
+
+  .card-resume {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem; /* gap 1.69 */
+    row-gap: 1rem;
+    margin-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 0rem;
+  }
+
+  .resume-1,
+  .resume-4 {
+    width: 40%;
+    height: 7.7rem;
+    flex-shrink: 0;
+    border-radius: 0.57788rem;
+    background: #ffe3bf;
+  }
+
+  .resume-2,
+  .resume-3 {
+    width: 40%;
+    height: 7.7rem;
+    flex-shrink: 0;
+    border-radius: 0.57788rem;
+    background: #ffeed9;
+  }
+
+  .border-resume-section {
+    display: flex;
+    padding: 0.58rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.58rem;
+    top: 0.93894rem;
+    margin-top: 0rem;
+    margin-bottom: 0.97rem;
+    margin-left: 0rem;
+    box-sizing: border-box;
+  }
+
+  .border-resume-section .date-resume {
+    color: rgba(26, 16, 3, 0.5);
+    font-family: Raleway;
+    font-size: 0.86681rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .border-resume-section .desc-career {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.86681rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .border-resume-section .school-resume {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.86681rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  /* foot resume */
+  .foot-resume {
+    width: fit-content;
+    height: 2000px;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    background: none;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0rem;
+  }
+
+  .border-foot-resume {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 0rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-foot-resume {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 19.35rem;
+    justify-content: flex-start;
+    row-gap: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .skillresume-1 {
+    display: inline-flex;
+    gap: 2.19rem;
+  }
+
+  .skillresume-2 {
+    display: inline-flex;
+    gap: 1.56rem;
+  }
+
+  .skillresume-3 {
+    display: inline-flex;
+    gap: 1.19rem;
+  }
+
+  .skillresume-4 {
+    display: inline-flex;
+    gap: 2.06rem;
+  }
+
+  .skillresume-5 {
+    display: inline-flex;
+    gap: 1.31rem;
+  }
+
+  .card-foot-resume h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.73356rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.88931rem; /* 166.667% */
+    letter-spacing: 0.04331rem;
+    width: 19.35rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .skillresume-1 span,
+  .skillresume-2 span,
+  .skillresume-3 span,
+  .skillresume-4 span,
+  .skillresume-5 span {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.015rem;
+    display: inline-flex;
+    padding: 0.25rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    background: #e1e8ef;
+  }
+
+  /* -----------------Resume Section End */
+  /* ------------------Contact Section */
+  .layout-4 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 65rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head-contact-section {
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    margin-bottom: 0.88rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .frame-head-contact-section {
+    display: flex;
+    width: 13rem;
+    padding: 0.625rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    margin-left: 0rem;
+    margin-top: 1.12rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .frame-head-section #text-contact-section {
+    color: #0b0909;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    letter-spacing: 0.0625rem;
+  }
+
+  .line-contact-section {
+    width: 20%;
+    height: 2px;
+  }
+
+  .border-card-cs {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.67rem;
+    margin-top: 0.5rem;
+  }
+
+  /* form contact */
+
+  .formcontact {
+    width: 95%;
+    height: 24.5rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #f8fbfb;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.38rem;
+    margin-top: 1.7rem;
+  }
+
+  .descriptcontact {
+    display: inline-flex;
+    height: 5.5rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 187.5% */
+    letter-spacing: 0.025rem;
+    margin-left: 1.81rem;
+    margin-right: 4.12rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0rem;
+  }
+
+  .descriptcontact .bold {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0.025rem;
+  }
+
+  .nameform,
+  .emailform,
+  .messageform {
+    width: 15rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.1875rem;
+    box-sizing: border-box;
+    margin-left: 2.44rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .nameform span,
+  .emailform span,
+  .messageform span {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 125% */
+    letter-spacing: 0.025rem;
+  }
+
+  .nameform input,
+  .emailform input,
+  .messageform input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #b5b5b5;
+    opacity: 0.2;
+  }
+
+  input[type="text"] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    border-color: #b5b5b5;
+    opacity: 0.2;
+  }
+
+  .nameform span .titik-dua {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: 0.01875rem;
+  }
+
+  .submit input {
+    display: inline-flex;
+    padding: 0.625rem 1.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.25rem;
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 166.667% */
+    border-width: 1.25px;
+    border-color: color-mix(in srgb-linear, #fd8a18 100%, #ee2c0b 0%);
+    margin-left: 9rem;
+    margin-right: auto;
+    margin-bottom: 2.87rem;
+    margin-top: 0.23rem;
+  }
+}
+
+/* -----------------------------------------media query MOBILE--------- */
+
+@media screen and (max-width: 450px) {
+  html {
+    max-width: max-content;
+    max-height: 3000px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background: #f2f5f9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header .logo {
+    font-family: Pacifico;
+    width: 180px;
+    height: 6.5rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header .logo h1 {
+    color: #ec1b09;
+    padding: 2.75rem 0rem;
+  }
+
+  .header .logo h1 span {
+    color: #ff9c1a;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .navbar {
+    display: flex;
+    width: 24rem;
+    border-radius: 1.25rem;
+    background: #f2f7fc;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 0rem;
+    margin-top: 7.5rem;
+  }
+
+  .navcards {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profil-card {
+    width: 95%;
+    height: 53.25rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profil-card .profil-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profil-card .profil-picture #profil-photo {
+    display: inline-flex;
+    width: 12.5rem;
+    height: 12.5rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-me,
+  .resume-section,
+  .contact-section {
+    width: 100%;
+    height: 1200px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .layout-2 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 24.5rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head-about {
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    margin-left: 2.5rem;
+    margin-top: 1.12rem;
+    margin-bottom: 0.88rem;
+  }
+
+  .frame-head {
+    display: flex;
+    width: 13.25rem;
+    padding: 0.625rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .frame-head #text-about {
+    color: #0b0909;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 100% */
+    letter-spacing: 0.0625rem;
+  }
+
+  .line-about {
+    width: 20%;
+    height: 2px;
+  }
+
+  .main-about {
+    display: inline-flex;
+    padding-left: 0.62rem;
+    padding-right: 0.62rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0rem;
+  }
+
+  .main-about p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem; /* 187.5% */
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .sub-head-about {
+    display: inline-flex;
+    padding: 0.62rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .sub-head-about span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 125% */
+    letter-spacing: 0.05rem;
+  }
+
+  /* Card About Start */
+  .card-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.69rem; /* gap 1.69 */
+    row-gap: 1.5rem;
+    margin-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+
+  .card1 {
+    width: 20.8125rem;
+    height: 10.5625rem;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    background: #ffebd1;
+  }
+
+  .border-card-about h1 {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+  }
+
+  .icon-web {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .icon-app-dev {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6875rem;
+  }
+
+  .icon-uiux {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .iconmentor {
+    width: 1.875rem;
+    height: 1.5rem;
+  }
+
+  .card2 {
+    width: 20.8125rem;
+    height: 10.5625rem;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    background: #fff;
+  }
+
+  .card3 {
+    width: 20.8125rem;
+    height: 9.7rem;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    background: #ffebd1;
+  }
+
+  .card4 {
+    width: 20.8125rem;
+    height: 9.7rem;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    background: #fff;
+  }
+
+  .border-card-about {
+    display: flex;
+    padding: 0.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.94rem;
+    margin-right: 0.94rem;
+  }
+
+  .border-card-about h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 83.333% */
+    margin: 0rem;
+  }
+
+  .border-card-about p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+    letter-spacing: 0.02188rem;
+    margin: 0rem;
+    text-align: justify;
+  }
+
+  /* landing page end--------- */
+  /* resume section----------- */
+  .layout-3 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 33rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head-resume {
+    display: inline-flex;
+    align-items: center;
+    gap: 0rem;
+    box-sizing: border-box;
+    margin-left: 0rem;
+    margin-top: 1.12rem;
+    margin-bottom: 0.88rem;
+  }
+
+  .frame-head-resume {
+    display: flex;
+    width: 13rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .frame-head-resume #text-resume-section {
+    color: #0b0909;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 100% */
+    letter-spacing: 0.0625rem;
+  }
+
+  .line-resume-section {
+    width: 20%;
+    height: 2px;
+  }
+
+  .head-detail-resume {
+    display: flex;
+    width: 100%;
+    height: 2.88931rem;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0rem;
+    margin-bottom: 1.35rem;
+  }
+
+  .head-detail-resume h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.63356rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.88931rem; /* 166.667% */
+    letter-spacing: 0.04331rem;
+    display: flex;
+    align-items: center;
+    gap: 0.57788rem;
+    margin: 0rem;
+  }
+
+  .icon-education {
+    width: 1.73356rem;
+    height: 1.73356rem;
+  }
+
+  .card-resume {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem; /* gap 1.69 */
+    row-gap: 1rem;
+    margin-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 0rem;
+  }
+
+  .resume-1,
+  .resume-4 {
+    width: 40%;
+    height: 7.22325rem;
+    flex-shrink: 0;
+    border-radius: 0.57788rem;
+    background: #ffe3bf;
+  }
+
+  .resume-2,
+  .resume-3 {
+    width: 40%;
+    height: 7.22325rem;
+    flex-shrink: 0;
+    border-radius: 0.57788rem;
+    background: #ffeed9;
+  }
+
+  .border-resume-section {
+    display: flex;
+    padding: 0.58rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.58rem;
+    top: 0.93894rem;
+    margin-top: 0rem;
+    margin-bottom: 0.97rem;
+    margin-left: 0rem;
+    box-sizing: border-box;
+  }
+
+  .border-resume-section .date-resume {
+    color: rgba(26, 16, 3, 0.5);
+    font-family: Raleway;
+    font-size: 0.86681rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .border-resume-section .desc-career {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.86681rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .border-resume-section .school-resume {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.86681rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  /* foot resume */
+  .foot-resume {
+    width: 410px;
+    height: 2000px;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    background: none;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .border-foot-resume {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 0rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-foot-resume {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 19.35rem;
+    justify-content: flex-start;
+    row-gap: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .skillresume-1 {
+    display: inline-flex;
+    gap: 2.19rem;
+  }
+
+  .skillresume-2 {
+    display: inline-flex;
+    gap: 1.56rem;
+  }
+
+  .skillresume-3 {
+    display: inline-flex;
+    gap: 1.19rem;
+  }
+
+  .skillresume-4 {
+    display: inline-flex;
+    gap: 2.06rem;
+  }
+
+  .skillresume-5 {
+    display: inline-flex;
+    gap: 1.31rem;
+  }
+
+  .card-foot-resume h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.73356rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.88931rem; /* 166.667% */
+    letter-spacing: 0.04331rem;
+    width: 19.35rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .skillresume-1 span,
+  .skillresume-2 span,
+  .skillresume-3 span,
+  .skillresume-4 span,
+  .skillresume-5 span {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.015rem;
+    display: inline-flex;
+    padding: 0.25rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    background: #e1e8ef;
+  }
+
+  /* -----------------Resume Section End */
+  /* ------------------Contact Section */
+  .layout-4 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 60rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .head-contact-section {
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    margin-bottom: 0.88rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .frame-head-contact-section {
+    display: flex;
+    width: 13rem;
+    padding: 0.625rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    margin-left: 0rem;
+    margin-top: 1.12rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .frame-head-section #text-contact-section {
+    color: #0b0909;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    letter-spacing: 0.0625rem;
+  }
+
+  .line-contact-section {
+    width: 20%;
+    height: 2px;
+  }
+
+  .border-card-cs {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.67rem;
+    margin-top: 0.5rem;
+  }
+
+  /* form contact */
+
+  .formcontact {
+    width: 95%;
+    height: 24.5rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #f8fbfb;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.38rem;
+    margin-top: 1.7rem;
+  }
+
+  .descriptcontact {
+    display: inline-flex;
+    height: 5.5rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 187.5% */
+    letter-spacing: 0.025rem;
+    margin-left: 1.81rem;
+    margin-right: 4.12rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0rem;
+  }
+
+  .descriptcontact .bold {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0.025rem;
+  }
+
+  .nameform,
+  .emailform,
+  .messageform {
+    width: 15rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.1875rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-left: 2.44rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .nameform span,
+  .emailform span,
+  .messageform span {
+    color: #000;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 125% */
+    letter-spacing: 0.025rem;
+  }
+
+  .nameform input,
+  .emailform input,
+  .messageform input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #b5b5b5;
+    opacity: 0.2;
+  }
+
+  input[type="text"] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    border-color: #b5b5b5;
+    opacity: 0.2;
+  }
+
+  .nameform span .titik-dua {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: 0.01875rem;
+  }
+
+  .submit input {
+    display: inline-flex;
+    padding: 0.625rem 1.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.25rem;
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 166.667% */
+    border-width: 1.25px;
+    border-color: color-mix(in srgb-linear, #fd8a18 100%, #ee2c0b 0%);
+    margin-left: 9rem;
+    margin-right: auto;
+    margin-bottom: 2.87rem;
+    margin-top: 0.23rem;
+  }
+}
