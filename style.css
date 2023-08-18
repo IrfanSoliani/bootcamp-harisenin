@@ -1,8 +1,8 @@
 html {
-  width: 90rem;
+  /* width: 90rem; */
   /* height: 64rem; */
   width: fit-content;
-  /* border: 1px solid black; */
+
   display: flex;
   justify-content: center;
   background: #f2f5f9;
@@ -1331,21 +1331,23 @@ html {
 .nameform input,
 .emailform input,
 .messageform input {
+  color: black;
   display: flex;
   flex-wrap: wrap;
   width: 35.7rem;
   border: none;
   border-bottom: 2px solid;
-  border-color: #b5b5b5;
-  opacity: 0.2;
+  /* border-color: #b5b5b5; */
+  /* opacity: 0.2; */
 }
 
 input[type="text"] {
+  color: black;
   border: none;
   outline: none;
   border-bottom: 2px solid;
   border-color: #b5b5b5;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 
 .nameform span .titik-dua {
@@ -2119,21 +2121,20 @@ input[type="text"] {
   .nameform input,
   .emailform input,
   .messageform input {
+    color: black;
     display: flex;
     flex-wrap: wrap;
     width: 15rem;
     border: none;
     border-bottom: 2px solid;
-    border-color: #b5b5b5;
-    opacity: 0.2;
   }
 
   input[type="text"] {
+    color: black
     border: none;
     outline: none;
     border-bottom: 2px solid;
     border-color: #b5b5b5;
-    opacity: 0.2;
   }
 
   .nameform span .titik-dua {
@@ -2170,7 +2171,7 @@ input[type="text"] {
 
 /* -----------------------------------------media query MOBILE--------- */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   html {
     max-width: max-content;
     max-height: 3000px;
@@ -2862,13 +2863,12 @@ input[type="text"] {
   .nameform input,
   .emailform input,
   .messageform input {
+    color: black;
     display: flex;
     flex-wrap: wrap;
     width: 15rem;
     border: none;
     border-bottom: 2px solid;
-    border-color: #b5b5b5;
-    opacity: 0.2;
   }
 
   input[type="text"] {
@@ -2876,7 +2876,6 @@ input[type="text"] {
     outline: none;
     border-bottom: 2px solid;
     border-color: #b5b5b5;
-    opacity: 0.2;
   }
 
   .nameform span .titik-dua {
